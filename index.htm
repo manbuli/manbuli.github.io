@@ -9,7 +9,7 @@
 //ajax() 方法用于执行 AJAX（异步 HTTP）请求。
 $(document).ready(function(){
     $("button").click(function(){
-        $.ajax({url:"http://wthrcdn.etouch.cn/weather_mini?citykey=101191101",success:function(result){
+        $.ajax({url:"https://wthrcdn.etouch.cn/weather_mini?citykey=101191101",success:function(result){
             $("#div1").html(result);
         }});
     });
